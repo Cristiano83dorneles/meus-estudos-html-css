@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        div > p {
+            display: none;  
+        }
+
+        div:hover > p {
+            display: block;
+            color: red;
+            width: 150px;
+            background-color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+
+        div {
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 id="principal">Criando Sites com HTML e CSS</h1>
+    <h1>Aprendendo HTML</h1>
+
+        <div>Teste de hover / Passe o mouse aqui /
+            <p>Texto escondido</p>
+        </div>
+
+        <h2 class="basico">HTML básico</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="destaque"> Quas atque adipisci voluptatibus sequi laudantium ad facilis</span> rem mollitia aut quae explicabo est sed id quos cumque, odit laboriosam eos at.</p>
+        <h2 class="intermediario">HTML Intermediário</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sunt consectetur, placeat dignissimos, maiores soluta dolorum quos culpa aut quia optio eaque natus, distinctio ipsam eum commodi nesciunt rem accusamus?</p>
+        <h2 class="avancado">HTML Avançado</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consectetur voluptate, impedit maxime alias autem et ipsa harum, veniam facilis porro ullam. Dignissimos maxime hic deserunt quasi unde, sapiente vel!</p>
+    <h1>Aprendenso CSS</h1>
+        <h2 class="basico">CSS Básico</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium esse sit ab animi, odit laborum facere perspiciatis, numquam alias quaerat soluta autem doloribus rerum magnam repellat qui. Dignissimos, veritatis culpa.</p>
+        <h2 class="intermediario">CSS Intermediário</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus quia consequuntur sequi tempore inventore cum temporibus repudiandae quas harum omnis doloribus, nemo in labore ullam vero commodi nostrum doloremque!</p>
+        <h2 class="avancado">CSS Avançado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi aliquam voluptates mollitia repellat quo aspernatur harum, quaerat, iure soluta deleniti tempora ea facilis! Eligendi illo minima maxime labore reprehenderit.</p>
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    }
+}
