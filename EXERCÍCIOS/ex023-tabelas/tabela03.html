@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        caption {
+            font-size: 2em;
+            background-color: rgb(68, 68, 68);
+            color: white;
+        }
+       
+        table {
+            background-color: #FFF8DC;
+            position: relative;
+        }
+
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 1em;    
+        }
+
+        thead th {
+            background-color: rgb(173, 221, 255);
+            font-weight: bolder;
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(173, 221, 255) ;
+        }
+
+        .regiao {
+            font-weight: bolder;
+            color: rgb(0, 0, 161);
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .municipios {
+            text-align: center;
+        }
+
+        .populacao {
+            text-align: center;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: darkgray;
+            font-weight: bolder;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das regiões federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Região</th>
+                <th scope="col">Estados</th>
+                <th scope="col">Municípios</th>
+                <th scope="col">População</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="regiao">Região Norte</td>
+                <td class="estados"> Acre
+                    Amapá
+                    Amazonas
+                   Pará Pará
+                    Rondônia
+                    Roraima
+                    Tocantins</td> 
+                <td class="municipios">450</td>
+                <td class="populacao">18 906 962</td>    
+            </tr>
+        
+            <tr>
+                <td class="regiao">Região Nordeste</td>
+                <td class="estados"> Alagoas
+                    Bahia Bahia
+                     Ceará
+                     Maranhão
+                     Paraíba
+                     Pernambuco
+                     Piauí
+                     Rio Grande do Norte
+                     Sergipe</td>
+                <td class="municipios">1 793</td>
+                <td class="populacao">57 667 842</td>
+            </tr>
+
+            <tr>
+                <td class="regiao">Região Centro-Oeste</td>
+                <td class="estados"> Distrito Federal
+                    Goiás
+                    Mato Grosso
+                    Mato Grosso do Sul</td>
+                <td class="municipios">467</td>
+                <td class="populacao">16 707 336</td>
+             </tr>
+
+            <tr> 
+                <td class="regiao">Região Sudoeste</td>
+                <td class="estados"> Espírito Santo
+                    Minas Gerais
+                    Rio de Janeiro
+                    São Paulo</td>
+                <td class="municipios">1 668</td>
+                <td class="populacao">89 632 912</td>
+            </tr>
+
+            <tr>
+                <td class="regiao">Região Sul</td>
+                <td class="estados"> Paraná
+                    Santa Catarina
+                    Rio Grande do Sul</td>
+                <td class="municipios">1191</td>
+                <td class="populacao">30 402 587</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" class="regiao">Brasil</th>
+                <td>26 e um distrito federal</td>
+                <td>5570</td>
+                <td>213 317 639</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero exercitationem nostrum error sequi laudantium a assumenda aut sed est provident tenetur non culpa tempora voluptates, libero dolores odio omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem esse fuga facilis magnam illum, adipisci repellat necessitatibus autem rem rerum obcaecati explicabo molestiae, dolorem tenetur veniam repellendus eum nobis?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatum vitae tempora blanditiis quos consequuntur doloribus iure, inventore fuga, debitis esse nobis mollitia eos facere aspernatur quisquam possimus non quod.</p>
+</body>
+</html>
