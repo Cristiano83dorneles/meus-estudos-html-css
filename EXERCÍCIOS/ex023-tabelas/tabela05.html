@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas </title>
+    <style>
+        caption {
+            font-weight: bolder;        }
+        thead, tt, th, td {
+            border: 1px solid black;
+            width: 70px;
+            height: 25px;
+            padding: 5px;
+        }
+        .cnome {
+            background-color: aquamarine;
+        }
+        .cgroup {
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="cgroup">
+        <col class="cgroup">
+        <col class="cprofissão">
+        </colgroup>
+        <thead>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>                
+            </tr>
+
+            <tr>
+                <td>Ana Maria</td>
+                <td>f</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+
+            <tr>
+                <td>Clara</td>
+                <td>f</td>
+                <td>20</td>
+                <td>Vendedora</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
