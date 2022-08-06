@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <fieldset>
+        <legend>Outros métodos de formulário</legend>
+        
+        <form action="cadastro.php" method="post">
+
+            <p>
+                <label for="iestado">Estado</label>
+                <select name="estado" id="iestado">
+
+                    <option value="" selected>==== Escolha =====</option>
+                    
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sul">
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="PR">Paraná</option>
+                    </optgroup>
+                </select>
+             </p>
+
+             <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="profissao" id="iprof" list="listprof">
+
+                <datalist id="listprof">
+                    <option>Professor</option>
+                    <option>Administrador</option>
+                    <option value="Cont">Contador</option>
+                    <option value="Prog">Programador</option>
+                </datalist>            
+            </p>
+
+            <p>
+                <label for="imens">Mensagens</label> <br>
+                <textarea name="mensagens" id="imens" cols="20" rows="10"></textarea>
+            </p>
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+           
+        </form>
+    </fieldset>
+    
+</body>
+</html>
