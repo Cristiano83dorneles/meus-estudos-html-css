@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Estilo para Telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 600px;
+    display: block;
+    margin: auto;
+    border: 1.5px solid black;
+}
+
+menu {
+    background-color: blanchedalmond;
+    height: 80px;
+    border: 1px solid black;
+}
+
+menu h1 {
+       text-align: center; 
+}
+
+menu ul {
+    width: 300px;
+    height: 25px; 
+    margin-top: 18px;
+    background-color: rgb(165, 81, 48);
+    color: white;      
+}
+
+ul > li {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 8px;
+}
+
+article {
+    margin: 15px;
+}
+
+article h2 {
+    margin: 30px;
+}
