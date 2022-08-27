@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*Estilo para todas as midias*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    padding: 10px;
+}

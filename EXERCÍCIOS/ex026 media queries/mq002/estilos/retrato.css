@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*Estilo para Portraid (em pé)*/
+
+
+body {
+    background-color: aquamarine;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
